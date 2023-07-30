@@ -1,4 +1,4 @@
-# cacapalavras
-Gerador de Caça Palavras para impressão.
+# CAÇA PALAVRAS
+# Gerador de Caça Palavras para impressão.
 
-#### Junior Criste
+Junior Criste
