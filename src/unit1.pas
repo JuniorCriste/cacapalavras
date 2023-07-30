@@ -118,14 +118,14 @@ begin
     B.text:=str[random(length(str))+1];
     espalado:= espalado + 35;
 
-    if (espalado > 749) then
+    if (espalado > 734) then
     begin
 
              espalado:= 0;
              espacima:=espacima + 35;
     end;
     end;
-    folha.top:= 0;
+    //folha.top:= 0;
     folha.left:= 144;
     folha.Height:=560;
     folha.Width:=768;

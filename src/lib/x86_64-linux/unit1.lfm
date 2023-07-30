@@ -1,19 +1,19 @@
 object mainS: TmainS
-  Left = 242
-  Height = 500
-  Top = 126
-  Width = 904
+  Left = 236
+  Height = 620
+  Top = 102
+  Width = 931
   BorderStyle = bsNone
   Caption = 'mainS'
-  ClientHeight = 500
-  ClientWidth = 904
+  ClientHeight = 620
+  ClientWidth = 931
   OnCreate = FormCreate
   Position = poScreenCenter
   LCLVersion = '2.2.0.4'
   object folha: TPanel
     Left = 144
-    Height = 493
-    Top = 0
+    Height = 565
+    Top = 48
     Width = 768
     Align = alCustom
     Anchors = [akTop, akLeft, akBottom]
@@ -22,11 +22,11 @@ object mainS: TmainS
   end
   object menuS: TPanel
     Left = 0
-    Height = 500
+    Height = 620
     Top = 0
     Width = 144
     Align = alLeft
-    ClientHeight = 500
+    ClientHeight = 620
     ClientWidth = 144
     TabOrder = 1
     OnClick = menuSClick
@@ -49,5 +49,12 @@ object mainS: TmainS
       OnClick = nomoreClick
       TabOrder = 1
     end
+  end
+  object Label1: TLabel
+    Left = 241
+    Height = 17
+    Top = 13
+    Width = 45
+    Caption = 'Label1'
   end
 end
