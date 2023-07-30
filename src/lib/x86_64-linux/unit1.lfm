@@ -9,7 +9,7 @@ object mainS: TmainS
   ClientWidth = 904
   OnCreate = FormCreate
   Position = poScreenCenter
-  LCLVersion = '1.8.2.0'
+  LCLVersion = '2.2.0.4'
   object folha: TPanel
     Left = 144
     Height = 493

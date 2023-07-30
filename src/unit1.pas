@@ -98,31 +98,31 @@ end;
 procedure TmainS.aleatorio();
 
  var i: integer;
-    B: TButton;
+    B: TEdit;
 //  espalado: integer;
 // espacima: integer;
 //const
 //str='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 begin
-    for  i := 1 to 150 do
+    for  i := 1 to 500 do
     begin
 
-    B := TButton.Create(folha);
+    B := Tedit.Create(folha);
     B.Left := espalado;
     B.top:= espacima;
     countname:= countname +1;
     B.name   := Format('lv%d', [countname]);
     B.Parent := folha;
     B.Height := 50;
-    B.Width := 50;
-    B.Caption:=str[random(length(str))+1];
-    espalado:= espalado + 50;
+    B.Width := 30;
+    B.text:=str[random(length(str))+1];
+    espalado:= espalado + 35;
 
     if (espalado > 749) then
     begin
 
              espalado:= 0;
-             espacima:=espacima + 50;
+             espacima:=espacima + 35;
     end;
     end;
     folha.top:= 0;
