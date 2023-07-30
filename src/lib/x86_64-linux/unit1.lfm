@@ -1,0 +1,53 @@
+object mainS: TmainS
+  Left = 242
+  Height = 500
+  Top = 126
+  Width = 904
+  BorderStyle = bsNone
+  Caption = 'mainS'
+  ClientHeight = 500
+  ClientWidth = 904
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '1.8.2.0'
+  object folha: TPanel
+    Left = 144
+    Height = 493
+    Top = 0
+    Width = 768
+    Align = alCustom
+    Anchors = [akTop, akLeft, akBottom]
+    TabOrder = 0
+    OnClick = folhaClick
+  end
+  object menuS: TPanel
+    Left = 0
+    Height = 500
+    Top = 0
+    Width = 144
+    Align = alLeft
+    ClientHeight = 500
+    ClientWidth = 144
+    TabOrder = 1
+    OnClick = menuSClick
+    object construa: TButton
+      Left = 8
+      Height = 95
+      Top = 24
+      Width = 120
+      Align = alCustom
+      Caption = 'NOVO'
+      OnClick = construaClick
+      TabOrder = 0
+    end
+    object nomore: TButton
+      Left = 9
+      Height = 30
+      Top = 127
+      Width = 119
+      Caption = 'Sair'
+      OnClick = nomoreClick
+      TabOrder = 1
+    end
+  end
+end
